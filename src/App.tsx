@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <main className='flex justify-center items-center w-screen min-h-screen relative bg-black'>
-        <img src={aquiesLogo} alt="Aquies Logo" className='absolute top-4 left-4 w-32 h-32 object-contain' />
+        <img src={aquiesLogo} alt="Aquies Logo" className='absolute top-4 left-4 w-32 h-32 object-contain rounded-lg z-20 opacity-40 cursor-pointer hover:opacity-100 hover:scale-105 transition-all duration-300' />
         <video
           src={videoBackGround}
           autoPlay
